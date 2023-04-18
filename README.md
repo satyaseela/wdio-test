@@ -72,6 +72,7 @@ Output:
 
 ## "spec" Reporter:
 
+```sh
 [chrome 112.0.5615.49 MAC #0-0] Running: chrome (v112.0.5615.49) on MAC
 
 [chrome 112.0.5615.49 MAC #0-0] Session ID: a0ae8aa3b900c831b730f3cb130fc581
@@ -84,20 +85,21 @@ Output:
 
 [chrome 112.0.5615.49 MAC #0-0] As a user, I can login and see User dashboard.
 
-[chrome 112.0.5615.49 MAC #0-0]    ✓ Given I am on the login page
+[chrome 112.0.5615.49 MAC #0-0] ✓ Given I am on the login page
 
-[chrome 112.0.5615.49 MAC #0-0]    ✓ When I login with Admin and admin123
+[chrome 112.0.5615.49 MAC #0-0] ✓ When I login with Admin and admin123
 
-[chrome 112.0.5615.49 MAC #0-0]    ✓ Then I should see a homepage saying Dashboard
+[chrome 112.0.5615.49 MAC #0-0] ✓ Then I should see a homepage saying Dashboard
 
 [chrome 112.0.5615.49 MAC #0-0]
 
 [chrome 112.0.5615.49 MAC #0-0] 3 passing (3.3s)
 
-Spec Files:      1 passed, 1 total (100% completed) in 00:00:23
+Spec Files: 1 passed, 1 total (100% completed) in 00:00:23
 
 2023-04-17T23:08:11.666Z INFO @wdio/local-runner: Shutting down spawned worker
 
 2023-04-17T23:08:11.918Z INFO @wdio/local-runner: Waiting for 0 to shut down gracefully
 
 2023-04-17T23:08:11.919Z INFO @wdio/local-runner: shutting down
+```
