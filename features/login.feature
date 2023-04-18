@@ -9,3 +9,4 @@ Feature: Performing login feature on Orange HRM Demo portal
     Examples:
       | username | password             | message             |
       | Admin    | admin123             | Dashboard           |
+      
